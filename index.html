@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top">
+                <ul class="header__contact">
+                    <li class="header__item"><a class="header__Customer" href="#">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <span>Customer Sign In</span></a></li>
+                    <li class="header__item"><a class="header__mail" href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>needhelp@conexi.com</span></a></li>
+                </ul>
+                <a class="header__logo logo" href="#"><img class="header__img" src="./images/logo.png" alt=""></a>
+                <ul class="header__media">
+                    <li class="header__media-item">
+                        <a class="header__media-link" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="header__media-item">
+                        <a class="header__media-link" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="header__media-item">
+                        <a class="header__media-link" href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="header__media-item">
+                        <a class="header__media-link" href="#">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__menu">
+                <div class="header__menu-box">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">pages </a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Book a ride</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button class="header__burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <a class="header__number" href="">888 888 0000 <span class="header__number-decor">Phone line</span></a>
+                </div>
+                <nav class="menu-burger">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">pages </a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Book a ride</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>                                   
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner__slider">
+            <div class="banner__item" style="background-image: url(../../images/banner-02.jpeg)">
+                <div class="banner__content">
+                    <h1 class="banner__title">Cheap & Trusted Taxi Company</h1>
+                    <p class="banner__text">Enjoy your comfortable trip with conexi company taxi</p>
+                    <a class="banner__btn" href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="banner__item" style="background-image: url(../../images/banner-01.jpg)">
+                <div class="banner__content">
+                    <h1 class="banner__title">Cheap & Trusted Taxi Company</h1>
+                    <p class="banner__text">Enjoy your comfortable trip with conexi company taxi</p>
+                    <a class="banner__btn" href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="banner__item" style="background-image: url(../../images/banner-03.jpg)">
+                <div class="banner__content">
+                    <h1 class="banner__title">Cheap & Trusted Taxi Company</h1>
+                    <p class="banner__text">Enjoy your comfortable trip with conexi company taxi</p>
+                    <a class="banner__btn" href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner__slider-arrows">
+
+        </div>
+    </section>
+    <section class="booking">
+        <div class="container">
+            <div class="booking__inner">
+                <div class="booking__item">
+                    <span class="booking__pretitle pretitle">Looking for taxi?</span>
+                    <h3 class="booking__title">Make your booking</h3>
+                    <p class="booking__text">Our taxis commit to make your trips unique by best answering yo</p>
+                </div>
+                <div class="booking__item">
+                    <form action="" class="booking__form">
+                        <input type="text" class="booking__input" placeholder="Your name">
+                        <input type="text" class="booking__input" placeholder="Email address">
+                        <input type="text" class="booking__input" placeholder="Passengers #">
+                        <input type="text" class="booking__input" placeholder="Pick up address">
+                        <input type="text" class="booking__input" placeholder="Drop off address">
+                        <input type="text" class="booking__input booking__input-date" placeholder="Select date">
+                        <input type="text" class="booking__input booking__input-time" placeholder="Select time">
+                        <button class="booking__btn">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <span class="about__pretitle pretitle">Welcome to conexi company</span>
+            <h3 class="about__title title">Your first choice <br> for traveling anywh</h3>
+            <div class="about__items">
+                <div class="about__item">
+                    <img class="about__item-img" src="./images/about-01.png" alt="">
+                </div>
+                <div class="about__item">
+                    <div class="about__rows">
+                        <div class="about__row">
+                            <p class="about__row-text">We’re specialized in providing a high quality service</p>
+                        </div>
+                        <div class="about__row">
+                            <img class="about__row-img" src="./images/about-02.jpg" alt="">
+                            <a class="about__row-btn" data-fancybox href="https://youtu.be/DEAe7cXzj9E"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                    <p class="about__text">There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which don't look even slightly believable. If you are going to use a passage of lorem ipsum you need to be sure there isn't anything embarrassing.</p>
+                    <div class="about__call">
+                        <div class="about__call-text">Call us now and make your booking</div>
+                        <a  class="about__call-link" href="#">888 888 0000</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="numbers">
+        <div class="container">
+            <span class="numbers__pretitle pretitle">Our fun facts </span>
+            <h3 class="numbers__title title">Numbers speak</h3>
+            <div class="numbers__items">
+                <div class="numbers__item">
+                    <img  class="numbers__icon" src="./images/icons/numbers-01.png" alt="">
+                    <div class="numbers__quantity">8700 <span>KM Driven</span></div>
+                </div>
+                <div class="numbers__item">
+                    <img  class="numbers__icon" src="./images/icons/numbers-02.png" alt="">
+                    <div class="numbers__quantity">4978  <span>People Dropped</span></div>
+                </div>
+                <div class="numbers__item">
+                    <img  class="numbers__icon" src="./images/icons/numbers-03.png" alt="">
+                    <div class="numbers__quantity">800 <span>Taxis & Drivers</span></div>
+                </div>
+                <div class="numbers__item">
+                    <img  class="numbers__icon" src="./images/icons/numbers-04.png" alt="">
+                    <div class="numbers__quantity">2480 <span>Happy People</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call">
+        <div class="container">
+            <div class="call__inner">
+                <div class="call__content">
+                    <span class="call__pretitle">Make a call or fill form</span>
+                    <h3 class="call__title">Call our agent to get a quote.</h3>
+                </div>
+                <a class="call__btn" href="#">Book Taxi Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="choose-taxi">
+        <div class="container">
+            <span class="choose-taxi__pretitle pretitle">Our best cars</span>
+            <h3 class="choose-taxi__title title">Choose taxi</h3>
+            <div class="choose-taxi__buttons">
+                <button class="choose-taxi__btn choose-taxi__btn-active">hybrid taxi</button>
+                <button class="choose-taxi__btn">town taxi</button>
+                <button class="choose-taxi__btn">LIMOUSINE taxi</button>
+                <button class="choose-taxi__btn">suv taxi</button>
+            </div>
+            <div class="choose-taxi__items">
+                <div class="choose-taxi__item">
+                    <img src="./images/choose-taxi-01.png" alt="" class="choose-taxi__img">
+                    <svg class="choose-taxi__svg" xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 498.503 498.503"><path d="M249.251 498.503c66.577 0 129.168-25.928 176.247-73.005 47.077-47.078 73.005-109.67 73.005-176.247 0-66.576-25.928-129.168-73.005-176.246C378.42 25.927 315.828 0 249.251 0 111.813 0 0 111.813 0 249.251c0 66.577 25.927 129.169 73.005 176.247 47.078 47.077 109.67 73.005 176.246 73.005z"/><path fill="#fff" d="M8.624 249.251c0-64.272 25.03-124.699 70.479-170.148 45.449-45.45 105.875-70.479 170.148-70.479s124.7 25.029 170.148 70.479c45.449 45.449 70.479 105.875 70.479 170.148 0 132.683-107.945 240.628-240.627 240.628-64.273 0-124.699-25.03-170.148-70.479C33.654 373.95 8.624 313.524 8.624 249.251z"/><path d="M249.251 18.541c-127.416 0-230.71 103.294-230.71 230.71s103.294 230.711 230.71 230.711c127.416 0 230.71-103.295 230.71-230.711s-103.294-230.71-230.71-230.71z"/><path fill="#fff" d="M249.251 396.621c-81.389 0-147.37-65.98-147.37-147.37 0-81.389 65.981-147.37 147.37-147.37 81.389 0 147.37 65.981 147.37 147.37 0 81.39-65.98 147.37-147.37 147.37z"/><path d="M111.362 249.251h137.889V111.362c-76.153 0-137.889 61.737-137.889 137.889zM249.251 249.251v137.89c76.153 0 137.889-61.736 137.889-137.89H249.251z"/><path fill="#fff" d="M140.952 108.643c-4.885-4.748-12.436-6.179-19.525-1.784 1.354-3.509.801-7.09.082-9.066-3.054-5.569-4.12-6.266-6.637-8.378-8.148-6.837-16.723-1-22.856 6.309l-29.632 35.313 46.581 39.087 31.249-37.24c7.14-8.509 8.244-16.945.738-24.241zM256.97 91.863l15.997-42.401v42.401h12.158V31.137h-18.267l-16.615 43.479h.172L233.8 31.137h-18.266v60.726h12.157V49.462l15.998 42.401h13.281zM420.43 117.127l-22.89 32.407 35.486-16.847 9.396 11.603-55.854 27.075-11.027-13.727 21.969-32.123-.13-.161-35.989 14.81-11.135-13.64 38.097-49.004 9.396 11.603-23.857 31.208 36.458-15.652 10.08 12.448z"/><path d="M98.491 104.464c2.062-2.458 6.722-2.357 9.719.157 3.295 2.765 3.303 6.685 1.09 9.321l-17.597 20.971-11.01-9.239 17.798-21.21zM129.8 129.203l-18.553 22.11-11.634-9.762 18.703-22.29c2.112-2.517 6.821-3.25 9.997-.584 3.595 3.015 3.951 7.59 1.487 10.526z"/></svg>
+                    <div class="choose-taxi__name">M5 2008 Model</div>
+                    <ul class="choose-taxi__list">
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Base Rate:</span>
+                            <span class="choose-taxi__price">$4.30</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Per Mile/KM:</span>
+                            <span class="choose-taxi__price">$2.00</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Passengers:</span>
+                            <span class="choose-taxi__price">4</span>
+                        </li>
+                    </ul>
+                    <a class="choose-taxi__btn" href="#">Book Taxi</a>
+                </div>
+                <div class="choose-taxi__item">
+                    <img src="./images/choose-taxi-02.png" alt="" class="choose-taxi__img">
+                    <svg class="choose-taxi__svg" xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path d="M96.355 185.867c-49.97-.021-90.468-40.092-90.468-89.5 0-49.431 40.521-89.501 90.468-89.479 50.016 0 90.514 40.071 90.514 89.479 0 49.43-40.521 89.5-90.514 89.5zm-74.201-46.572l1.62-1.26c-4.68-8.572-6.479-14.287-8.527-20.631-.18-.473-.292-.789-.495-1.059-.135.359-.067.676-.045 1.08 1.305 6.93 4.455 15.661 7.447 21.87zm75.461-123.52l12.307 71.57-12.869 7.537-.427-79.084c0-.945-.63-.945-.765 0L88.593 90.81l-5.399-3.127 11.564-71.884c-44.818.269-80.209 36.245-80.209 80.703 0 14.039 4.41 28.799 10.754 40.295l56.473-46.955 5.421 3.104-63.401 45.561c-1.53 1.08-1.08 1.598.607.676l70.804-40.904v14.715l-68.375 26.098c14.309 23.377 39.688 38.271 69.297 38.271 29.542 0 55.348-14.916 69.657-38.248l-68.262-26.076V98.324l68.105 39.283c1.551.855 2.002.383.539-.652L105.535 92.97l5.422-3.105 56.428 47c6.48-11.564 10.754-26.346 10.754-40.498 0-43.896-36.493-79.399-80.524-80.592zm84.912 64.392c.156.428.291.788.494 1.035.135-.36.023-.675 0-1.08-7.447-40.678-42.725-71.074-86.486-71.074-48.98 0-88.601 39.711-88.601 88.668 0 11.564 2.948 22.59 6.953 32.691 1.845 4.656 7.739 15.277 9.179 17.369.315.449.45.674.81.945-.022-.428-.044-.631-.27-1.148-.248-.428-5.265-9.99-8.167-17.1-2.475-6.119-5.557-18.312-5.557-32.443 0-47.495 38.541-86.036 86.035-86.036 24.84.022 48.194 12.149 62.502 27.854 10.868 11.926 16.493 19.936 23.108 40.319zM24.943 139.789l-1.957.721c12.712 24.299 39.373 41.961 73.369 41.961 48.238.023 86.801-39.014 86.801-86.104 0-11.52-3.33-18.584-5.197-23.691-1.371-3.825-4.32-9.698-5.625-12.105-.27-.473-.449-.675-.809-.967.021.427.045.675.314 1.148 1.014 2.002 3.262 7.042 4.859 12.104 2.16 6.727 3.51 14.264 3.51 23.512 0 14.691-4.611 29.721-11.406 41.689.383.99.021 1.486-1.125 1.801-14.828 23.85-41.264 39.463-71.345 39.441-28.259 0-50.848-15.143-57.98-22.994-5.804-6.391-10.101-11.137-13.409-16.516zm66.935-47.067l3.735 2.182.473-58.07c0-1.17-.359-1.215-.45-.045l-3.758 55.933zm6.524 4.387l50.24 29.406c.9.518 1.08.203.227-.359l-46.641-31.252-3.826 2.205zm-7.649-2.025l-12.622 10.328c-.697.584-.382.854.45.383l15.749-8.73-3.577-1.981z"/></g></svg>
+                    <div class="choose-taxi__name">E Class 2010 Model</div>
+                    <ul class="choose-taxi__list">
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Base Rate:</span>
+                            <span class="choose-taxi__price">$4.30</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Per Mile/KM:</span>
+                            <span class="choose-taxi__price">$2.00</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Passengers:</span>
+                            <span class="choose-taxi__price">4</span>
+                        </li>
+                    </ul>
+                    <a class="choose-taxi__btn" href="#">Book Taxi</a>
+                </div>
+                <div class="choose-taxi__item">
+                    <img src="./images/choose-taxi-03.png" alt="" class="choose-taxi__img">
+                    <svg class="choose-taxi__svg" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path d="M12,19.5c-6.617,0-12-3.364-12-7.5s5.383-7.5,12-7.5S24,7.864,24,12S18.617,19.5,12,19.5z M12,5.5C5.935,5.5,1,8.416,1,12s4.935,6.5,11,6.5s11-2.916,11-6.5S18.065,5.5,12,5.5z"/><path d="M12,11.5c-4.561,0-8-1.505-8-3.5s3.439-3.5,8-3.5s8,1.505,8,3.5S16.561,11.5,12,11.5z M12,5.5C7.875,5.5,5,6.817,5,8s2.875,2.5,7,2.5s7-1.317,7-2.5S16.125,5.5,12,5.5z"/><path d="M12,19.5c-1.995,0-3.5-3.224-3.5-7.5s1.505-7.5,3.5-7.5s3.5,3.224,3.5,7.5S13.995,19.5,12,19.5z M12,5.5c-1.183,0-2.5,2.669-2.5,6.5s1.317,6.5,2.5,6.5s2.5-2.669,2.5-6.5S13.183,5.5,12,5.5z"/></svg>
+                    <div class="choose-taxi__name">Yaris 2014 Model</div>
+                    <ul class="choose-taxi__list">
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Base Rate:</span>
+                            <span class="choose-taxi__price">$4.30</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Per Mile/KM:</span>
+                            <span class="choose-taxi__price">$2.00</span>
+                        </li>
+                        <li class="choose-taxi__list-element">
+                            <span class="choose-taxi__list-item">Passengers:</span>
+                            <span class="choose-taxi__price">4</span>
+                        </li>
+                    </ul>
+                    <a class="choose-taxi__btn" href="#">Book Taxi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="container">
+            <span class="feature__pretitle pretitle">Conexi benefit list</span>
+            <h3 class="feature__title title">Why choose us</h3>
+            <div class="feature__items">
+                <div class="feature__item">
+                    <div class="feature__circle">
+                        <img class="feature__icons" src="./images/icons/feature-01.png" alt="">
+                    </div>
+                    <h5 class="feature__item-title">Safety Guarantee</h5>
+                    <p class="feature__item-text">Lorem ipsum dolor sit amet cons adipisci elit vehicula est non lac at quam. </p>
+                    <a class="feature__item-link" href="#">Read More</a>
+                </div>
+                <div class="feature__item">
+                    <div class="feature__circle">
+                        <img class="feature__icons" src="./images/icons/feature-02.png" alt="">
+                    </div>
+                    <h5 class="feature__item-title">Safety Guarantee</h5>
+                    <p class="feature__item-text">Lorem ipsum dolor sit amet cons adipisci elit vehicula est non lac at quam.</p>
+                    <a class="feature__item-link" href="#">Read More</a>
+                </div>
+                <div class="feature__item">
+                    <div class="feature__circle">
+                        <img class="feature__icons" src="./images/icons/feature-03.png" alt="">
+                    </div>
+                    <h5 class="feature__item-title">Safety Guarantee</h5>
+                    <p class="feature__item-text">Lorem ipsum dolor sit amet cons adipisci elit vehicula est non lac at quam. </p>
+                    <a class="feature__item-link" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rates">
+        <div class="container">
+            <span class="rates__pretitle pretitle">Our all taxi rates</span>
+            <h3 class="rates__title title">Check taxi fares</h3>
+            <div class="rates__items">
+                <div class="rates__item">
+                    <div class="rates__container">
+                        <img class="rates__img" src="./images/icons/taxi.png" alt="" >
+                        <div class="rates__box">
+                            <span class="rates__box-title">All taxi fares</span>
+                            <span class="rates__box-text">Lorem ipsum dolor sit amet cons adipisci elit.</span>
+                        </div>
+                    </div>
+                    <ul class="rates__list">
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Initial charge:</span>
+                            <span class="rates__price">$2.50</span>
+                        </li>
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Additional Kilometre:</span>
+                            <span class="rates__price">$0.50</span>
+                        </li>
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Per 2 minutes in stopped:</span>
+                            <span class="rates__price">$0.66</span>
+                        </li>
+                    </ul>
+                    <a class="rates__btn" href="#">Order Taxi Now</a>
+                </div>
+                <div class="rates__item">
+                    <div class="rates__container">
+                        <img class="rates__img" src="./images/icons/taxi.png" alt="" >
+                        <div class="rates__box">
+                            <span class="rates__box-title">All taxi fares</span>
+                            <span class="rates__box-text">Lorem ipsum dolor sit amet cons adipisci elit.</span>
+                        </div>
+                    </div>
+                    <ul class="rates__list">
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Initial charge:</span>
+                            <span class="rates__price">$2.50</span>
+                        </li>
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Additional Kilometre:</span>
+                            <span class="rates__price">$0.50</span>
+                        </li>
+                        <li class="rates__list-element">
+                            <span class="rates__list-item">Per 2 minutes in stopped:</span>
+                            <span class="rates__price">$0.66</span>
+                        </li>
+                    </ul>
+                    <a class="rates__btn" href="#">Order Taxi Now</a>
+                </div>
+            </div>
+            <p class="rates__text">There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour or random words which. </p>
+        </div>
+    </section>
+    <section class="reviews" style="background-image:url('./images/banner-02.jpeg')">
+        <div class="container">
+            <span class="reviews__pretitle pretitle">Client testimonials</span>
+            <h3 class="reviews__title title">What they say?</h3>
+            <div class="reviews__images">
+                <img class="reviews__img" src="./images/reviews-01.avif" alt="">
+                <img class="reviews__img" src="./images/reviews-02.avif" alt="">
+                <img class="reviews__img" src="./images/reviews-03.avif" alt="">
+            </div>
+            <div class="reviews__slider">
+                <div class="reviews__items">
+                    <div class="reviews__item">
+                        <p class="reviews__text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews__name">John Albert</div>
+                    </div>
+                    <div class="reviews__item">
+                        <p class="reviews__text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews__name">John Albert</div>
+                    </div>
+                    <div class="reviews__item">
+                        <p class="reviews__text">This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews__name">John Albert</div>
+                    </div>
+                </div>
+                <div class="reviews__slider-arrows"></div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <span class="news__pretitle pretitle">Latest blog posts</span>
+            <h3 class="news__title title">News & updates</h3>
+            <div class="news__blog">
+                <div class="news__item">
+                    <a class="news__item-link" href="#"><img class="news__item-img" src="./images/blog-01.jpg" alt=""></a>
+                    <a class="news__item-link" href="#"><span class="news__date">20 FEb, 2019</span></a>
+                    <a class="news__item-link" href="#"><span class="news__author">by Admin</span></a>
+                    <a class="news__item-link" href="#"><span class="news__comments">3 Comments</span></a>
+                    <a class="news__item-link" href="#"><h4 class="news__item-title">We ensure you that your journey is comfortable and safe</h4></a>
+                    <p class="news__item-text">There are many variations of passages of lorem ipsum available but the majority have suffered alteration</p>
+                </div>
+                <div class="news__item">
+                    <div class="news__item-content">
+                        <a class="news__item-link" href="#"><span class="news__content-date news__date">20 FEb, 2019</span></a>
+                        <a class="news__item-link" href="#"><h4 class="news__content-title">Car with private and discreet cabman for a service</h4></a>
+                        <a class="news__item-link" href="#"><span class="news__content-author news__author">by Admin</span></a>
+                        <a class="news__item-link" href="#"><span class="news__content-comments news__comments">3 Comments</span></a>
+                    </div>
+                    <a class="news__item-link" href="#"><img class="news__img" src="./images/blog-02.jpg" alt=""></a>
+                </div>
+                <div class="news__item">
+                    <div class="news__item-content">
+                        <a class="news__item-link" href="#"><span class="news__content-date news__date">20 FEb, 2019</span></a>
+                        <a class="news__item-link" href="#"><h4 class="news__content-title">We ensure you that your journey is comfortable and safe</h4></a>
+                        <a class="news__item-link" href="#"><span class="news__content-author news__author">by Admin</span></a>
+                        <a class="news__item-link" href="#"><span class="news__content-comments news__comments">3 Comments</span></a>
+                    </div>
+                    <a class="news__item-link" href="#"><img class="news__img" src="./images/blog-03.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cta">
+        <div class="container">
+            <span class="cta__pretitle">Call 24 hour service available</span>
+            <h3 class="cta__title">Call now and book <br>
+                our taxi for your next ride</h3>
+            <a  class="cta__btn" href="#">Choose Your Taxi</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <h5 class="footer__title">About</h5>
+                    <p class="footer__text">There are many vari of pass of lorem ipsum availab but the majority have suffered in some form by injected humour or words</p>
+                    <ul class="footer__media">
+                        <li class="footer__media-item">
+                            <a class="footer__media-link" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer__media-item">
+                            <a class="footer__media-link" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer__media-item">
+                            <a class="footer__media-link" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="footer__media-item">
+                            <a class="footer__media-link" href="#">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h5 class="footer__title">Links</h5>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link " href="#">About</a>
+                            </li>
+                            <li class="footer__menu-item ">
+                                <a class="footer__menu-link " href="#">Get a Taxi</a>
+                            </li>
+                            <li class="footer__menu-item ">
+                                <a class="footer__menu-link " href="#">Our Reviews</a>
+                            </li>
+                            <li class="footer__menu-item ">
+                                <a class="footer__menu-link" href="#">Latest News</a>
+                            </li>
+                            <li class="footer__menu-item ">
+                                <a class="footer__menu-link " href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="footer__item">
+                    <h5 class="footer__title">Contact</h5>
+                    <div class="footer__position">86 Road Broklyn Street, 600
+                        New York, USA</div>
+                    <ul class="footer__contact">
+                        <li class="footer__contact-item"><a class="footer__mail" href="#">needhelp@conexi.com</a></li>
+                        <li class="footer__contact-item"><a class="footer__number" href="#">666 888 000</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h5 class="footer__title">Newsletter</h5>
+                    <p class="footer__text">Sign up now for our mailing list to get all latest news
+                        and updates from conexi company.</p>
+                    <form action="" class="footer__form">
+                        <input class="footer__input" placeholder="Enter your email">
+                        <button class="footer__btn">Go</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <a href="#"><img class="footer__logo" src="./images/footer_logo.png" alt="" ></a>
+                <div class="footer__copyright-text">© 2019 Layerdrops.com</div>
+                <ul class="footer__copyright-list">
+                    <li class="footer__copyright-element">
+                        <a href="#" class="footer__copyright-link">Terms of Use</a>
+                    </li>
+                    <li class="footer__copyright-element">
+                        <a href="#" class="footer__copyright-link">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
