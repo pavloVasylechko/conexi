@@ -1,0 +1,99 @@
+.choose-taxi{
+    padding: 150px 0px 120px;
+    text-align: center;
+    background-color:#ffffff;
+    .choose-taxi__pretitle {
+        color: #717171;
+        display: inline-block;
+        margin-bottom: 20px;
+        &::after{
+            top: 0;
+           left: 50%;
+           transform: translateX(-50%);
+        }
+    }
+    .choose-taxi__title {
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        color: #111111;
+        margin-bottom: 40px;
+    }
+    .choose-taxi__buttons {
+        margin-bottom: 60px;
+    }
+    .choose-taxi__btn {
+        font-family: "Poppins";
+        background-color: #f3f3f3;
+        border-radius:50px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #717171;
+        padding: 8px 20px;
+        border:none;
+        cursor: pointer;
+        transition: all .5s ease;
+        &:hover{
+            color: #111111;
+            background-color:#ffc000;
+        }
+    }
+    .choose-taxi__btn-active{
+        color: #111111;
+        background-color:#ffc000;
+    }
+    .choose-taxi__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    .choose-taxi__item {
+        flex-basis: calc(33.33% - 30px);
+        background-color: #ffffff;
+        border: 2px solid #f3f3f3;
+        padding: 50px 0px;
+        border-radius:10px;
+    }
+    .choose-taxi__img {
+    }
+    .choose-taxi__name {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #111111;
+        margin-bottom: 30px;
+    }
+    .choose-taxi__list {
+        max-width: 230px;
+        margin: 0 auto 40px auto;
+    }
+    .choose-taxi__list-element {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .choose-taxi__list-item {
+    }
+    .choose-taxi__price {
+    }
+    .choose-taxi__svg{
+        position: relative;
+        margin-bottom: 20px;
+        &::after{
+            position: absolute;
+            content:'';
+            width: 99px;
+            height: 98px;
+            background-color: #111111;
+            border-radius:50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    svg{
+        width: 56px;
+        height: 56px;
+        
+    }
+}

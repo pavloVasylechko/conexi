@@ -1,0 +1,52 @@
+.call{
+    padding: 120px 0px 160px;
+    background-color: #ffc000;
+    position: relative;
+    &::after{
+        position: absolute;
+        content:'';
+        background-image:url('../../images/bottom-decot.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        object-fit: cover;
+    }
+    .call__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .call__content {
+    }
+    .call__pretitle {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #111111;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    .call__title {
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        color: #111111;
+    }
+    .call__btn {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #111111;
+        border-radius: 50px;
+        padding: 30px 60px;
+        transition: all .5s ease;
+        &:hover{
+            color: #111;
+        background-color: #ffffff;
+        }
+    }
+}

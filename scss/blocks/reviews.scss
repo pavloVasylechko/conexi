@@ -1,0 +1,115 @@
+.reviews{
+    padding: 150px 0px 120px;
+    text-align: center;
+    position: relative;
+    background-image:url('../../images/banner-02.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content:'';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom:0;
+        z-index: -1;
+    }
+    .reviews__pretitle {
+        color: #ffffff;
+    }
+    .reviews__title {
+        color: #ffffff;
+        margin-bottom: 60px;
+    }
+    .reviews__images {
+        margin-bottom: 60px;
+    }
+    .reviews__img {
+        width: 80px !important;
+        height: 80px;
+        opacity: 0.08;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+    .slick-current{
+        opacity: 1;
+    }
+    .slick-track{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .reviews__slider {
+    }
+    .reviews__item {
+    }
+    .reviews__text {
+        max-width: 920px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-bottom: 60px;
+    }
+    .reviews__name {
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 400;
+        color: #ffc000;
+    }
+    &__slider-arrows{
+        position: absolute;
+        bottom: 40%;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slick-arrow{
+        cursor: pointer;
+        font-size: 40px;
+        color:#fff;
+        position: relative;
+        font-weight: 600;
+        transition: all 0.5s ease;
+        &:hover{
+            color: #ffc000;
+            transition: all 0.5s ease;
+            &::after{
+                border-color: #ffc000;
+                transition: all 0.5s ease;
+            }
+        }
+        &::after{
+            content:'';
+            position: absolute;
+            width: 65px;
+            height: 63px;
+            background-color: rgba(255,255,255,0.0);
+            border: 2px solid #ffffff;
+            border-radius:50%;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all 0.5s ease;
+        }
+    }
+    .slick-prev{
+        &::after{
+            right: 0;
+        }
+    }
+    .slick-next{
+        &::after{
+            left: 0;
+        }
+    }
+}

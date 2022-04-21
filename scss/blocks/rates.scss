@@ -1,0 +1,95 @@
+.rates{
+    padding: 150px 0px 120px;
+    background-color:#fff;
+    text-align: center;
+    .rates__pretitle {
+        font-weight: 600;
+        color: #717171;
+        &::after{
+            top: 0;
+           left: 50%;
+           transform: translateX(-50%);
+        }
+    }
+    .rates__title {
+        margin-bottom: 60px;
+    }
+    .rates__items {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    .rates__item {
+        flex-basis: 49%;
+        border-radius:10px;
+        background-color:#ffc000;
+        padding: 100px 100px 120px 100px;
+    }
+    .rates__list {
+    }
+    .rates__container {
+        display: flex;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content:'';
+            width: 370px;
+            height: 2px;
+            opacity: 0.1;
+            background-color: #111111;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .rates__box{
+        text-align: left;
+    }
+    .rates__img {
+        width: 64px;
+        height: 62px;
+        margin-right: 20px;
+    }
+    .rates__box-title {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        color: #111111;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .rates__box-text {
+        color: #111111;
+        font-weight: 500;
+    }
+    .rates__list{
+        max-width: 375px;
+        margin-bottom: 60px;
+    }
+    .rates__list-element {
+        display: flex;
+        justify-content: space-between;
+    }
+    .rates__list-item {
+        font-weight: 500;
+        color: #111111;
+    }
+    .rates__price {
+        font-weight: 600;
+        color: #111111;
+    }
+    .rates__btn {
+        line-height: 1.2;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #111111;
+        padding: 20px 60px;
+        border-radius:50px;
+    }
+    .rates__text {
+        max-width: 765px;
+        margin: 0 auto;
+    }
+}

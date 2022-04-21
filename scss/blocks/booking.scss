@@ -1,0 +1,98 @@
+.booking{
+    padding: 120px 0px 160px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content:'';
+        background-image:url('../../images/bottom-decot-02.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        object-fit: cover;
+    }
+    &__inner{
+        display: flex;
+    }
+    &__item {
+        &:first-child{
+            max-width: 350px;
+            margin-right: 50px;
+        }
+    }
+    &__pretitle {
+        margin-bottom: 25px;
+        display: inline-block;
+        &::after{
+            left: 0;
+        }
+    }
+    &__title {
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 44px;
+        line-height: 70px;
+        color: #ffffff;
+    }
+    .booking__text {
+    }
+    .booking__form {
+        display: grid;
+        grid-template-columns: minmax(375px,100px) minmax(375px,100px);
+        grid-gap: 20px;
+    }
+    .booking__input {
+        height: 67px;
+        background-color: #242424;
+        padding: 30px 40px;
+        font-family: 'Poppins' sans-serif;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #b5b5b5;
+        border: none;
+        border-radius:50px;
+        position: relative;
+        &::placeholder{
+            font-family: 'Poppins' sans-serif;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 600;
+            color: #b5b5b5;
+        }
+    }
+    .booking__btn {
+        height: 67px;
+        cursor: pointer;
+        border: none;
+        background-color: #ffc000;
+        border-radius:50px;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #111111;
+        transition: all .5s ease;
+        &:hover{
+            background-color: #fff;
+            transition: all .5s ease;
+        }
+    }
+    .booking__input-time{
+        &::after{
+            content:'f073';
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__input-date{
+        &::after{
+            content:'f073';
+        }
+    }
+}

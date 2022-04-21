@@ -1,0 +1,179 @@
+.footer{
+    .footer__inner {
+        display: flex;
+        padding: 120px 0px;
+    }
+    .footer__item {
+        &:first-child{
+            width: 285px;
+            margin-right: 62px;
+        }
+        &:nth-child(2){
+            width: 100px;
+            margin-right: 84px;
+        }
+        &:nth-child(3){
+            width: 200px;
+            margin-right: 88px;
+        }
+        &:last-child{
+            width: 410px;
+        }
+    }
+    .footer__title {
+        margin-bottom: 50px;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .footer__text {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 600;
+        color: #b5b5b5;
+        margin-bottom: 40px;
+    }
+    .footer__media {
+        display: flex;
+    }
+    .footer__media-item {
+        &:not(:last-child){
+            margin-right: 35px;
+        }
+    }
+    .footer__media-link {
+        
+    }
+    .footer__menu {
+    }
+    .footer__menu-list {
+    }
+    .footer__menu-item {
+    }
+    .footer__menu-link {
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #b5b5b5;
+    }
+    .footer__position {
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #b5b5b5;
+        margin-bottom: 40px;
+    }
+    .footer__contact {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #b5b5b5;
+    }
+    .footer__mail {
+        margin-bottom: 10px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content:'';
+            background-image:url('../../images/icons/envelope.svg');
+            width: 16px;
+            height: 16px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .footer__number {
+        position: relative;
+        &::after{
+            position: absolute;
+            content:'';
+            font-size: 13px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #ffc000;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .footer__form {
+        position: relative;
+    }
+    .footer__input {
+        width: 400px;
+        height: 67px;
+        background-color: #242424;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #b5b5b5;
+        font-family: "Poppins";
+        padding: 26px 120px 26px 40px;
+        border-radius: 50px;
+        border:none;
+        &::placeholder{
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 600;
+            color: #b5b5b5;
+            font-family: "Poppins";
+        }
+    }
+    .footer__btn {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #111111;
+        width: 48px;
+        height: 48px;
+        background-color: #ffc000;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        transition: all .5s ease;
+        &:hover{
+            background-color: #fff;
+            transition: all .5s ease;
+        }
+    }
+    .footer__copyright {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px 88px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content:'';
+            width: 1170px;
+            height: 1px;
+            opacity: 0.1;
+            background-color: #ffffff;
+            top: 0;
+            left: 0;
+        }
+    }
+    .footer__logo {
+        margin-right: 20px;
+    }
+    .footer__copyright-text {
+        margin-right: auto;
+    }
+    .footer__copyright-list {
+        display: flex;
+    }
+    .footer__copyright-element {
+        &:first-child{
+            margin-right: 20px;
+        }
+    }
+    .footer__copyright-link {
+    }
+}
